@@ -1,0 +1,3 @@
+*.zip
+v-env/*
+.vscode/*
