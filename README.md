@@ -7,7 +7,7 @@
 * Support various languages like Javascript, java, python, c#
 
 ## First install all the dependencies in a folder and then zip the site-packages 
-### [aws link describing the process]](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
+### [aws link describing the process](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
 
 ```
 python3 -m venv v-env
