@@ -2,7 +2,7 @@ import xlrd
 from collections import OrderedDict
 import json
 # Open the workbook and select the first worksheet
-wb = xlrd.open_workbook('./localization.xlsx')
+wb = xlrd.open_workbook('./localtest.xlsx')
 sh = wb.sheet_by_index(0)
 # List to hold dictionaries
 data_list = []
