@@ -12,7 +12,7 @@
 ```
 python3 -m venv v-env
 source v-env/bin/activate
-pip3 install requests utm sklearn
+pip3 install requests utm sklearn 
 deactivate
 cd v-env/lib/python3.7/site-packages/
 zip -r9 /home/aswin/Documents/SmartCity-Localization/lambda_function.zip .

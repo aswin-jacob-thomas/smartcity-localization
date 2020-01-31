@@ -7,6 +7,7 @@ from statistics import mode
 import json
 import requests
 import time
+import os
 
 def lambda_handler(event, context):
     start_time = time.time()
@@ -106,3 +107,11 @@ def lambda_handler(event, context):
     }
 
 print(lambda_handler({},{}))
+
+# Uncomment the following line if the code is run in local machine
+
+# with open('result_localization.json','w') as f:
+#     f.writelines(lambda_handler({},{})['body'])
+
+# print("Copy and paste the following line in firefox browser")
+# print(os.getcwd()+'/result_localization.json')
