@@ -8,9 +8,9 @@ import json
 import requests
 import time
 import os
+import geocoder
 
 def lambda_handler(event, context):
-    start_time = time.time()
     url = 'http://backend.digitaltwincities.info'
     response = requests.get(url).json()
     json_data = response
@@ -34,7 +34,7 @@ def lambda_handler(event, context):
     data_array = np.array(data_array)
     cordinate_array = np.array(cordinate_array)
     zone_array = np.array(zone_array)
-    end_time = time.time()
+
     # Now the array will have latitude, longitude and compass as its columns
     X = array[:,[0,1]]
     # Now X will have only latitude and longitude values. Performing mean shift algorithm on the latitude and longitudes
@@ -96,17 +96,18 @@ def lambda_handler(event, context):
         lat_long = utm.to_latlon(cluster_centers[mode_of_labels][0], cluster_centers[mode_of_labels][1], cordinate, zone)
         current_cluster_result['cluster_latitude'] = lat_long[0]
         current_cluster_result['cluster_longitude'] = lat_long[1]
+        g = geocoder.arcgis([lat_long[0], lat_long[1]], method='reverse')
+        current_cluster_result['cluster_address'] = g.json['address']
         current_cluster_result['cluster_objects'] = (data_array[indices_of_cluster]).tolist()
         
         return_value.append(current_cluster_result)
     
-    print("Time taken for the operation ",(end_time-start_time)*1000)    
     return {
         "statusCode": 200,
         "body": json.dumps({'objects': return_value})
     }
 
-print(lambda_handler({},{}))
+print(lambda_handler({},{})['body'])
 
 # Uncomment the following line if the code is run in local machine
 
