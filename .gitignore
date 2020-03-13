@@ -3,3 +3,8 @@ v-env/*
 v-en/*
 .vscode/*
 venvf/*
+.ipynb*
+.~*
+mongo_insert_script/node_modules
+networkAnalysis/v-env
+networkAnalysis/*.zip
