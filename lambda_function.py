@@ -2,18 +2,16 @@ import numpy as np
 from sklearn.cluster import MeanShift
 import utm
 from sklearn.cluster import MeanShift
-import statistics 
-from statistics import mode 
 import json
-import requests
+import urllib.request
 import time
 import os
-import geocoder
 
 def lambda_handler(event, context):
     url = 'http://backend.digitaltwincities.info'
-    response = requests.get(url).json()
-    json_data = response
+    response = urllib.request.urlopen(url).read()
+    
+    json_data = json.loads(response.decode('utf-8'))
     data = json_data['data']
     array = []
     # Creating image array which contains all the images
@@ -81,7 +79,7 @@ def lambda_handler(event, context):
         # This center point is taken as the estimated center of the object
         if len_of_cluster < 2:
             continue
-        ms = MeanShift(bandwidth=100)  
+        ms = MeanShift(bandwidth=150)  
         labels = (ms.fit_predict(intersections_of_lines)).tolist()
         cluster_centers = ms.cluster_centers_
         
@@ -96,8 +94,8 @@ def lambda_handler(event, context):
         lat_long = utm.to_latlon(cluster_centers[mode_of_labels][0], cluster_centers[mode_of_labels][1], cordinate, zone)
         current_cluster_result['cluster_latitude'] = lat_long[0]
         current_cluster_result['cluster_longitude'] = lat_long[1]
-        g = geocoder.arcgis([lat_long[0], lat_long[1]], method='reverse')
-        current_cluster_result['cluster_address'] = g.json['address']
+        # g = geocoder.arcgis([lat_long[0], lat_long[1]], method='reverse')
+        # current_cluster_result['cluster_address'] = g.json['address']
         current_cluster_result['cluster_objects'] = (data_array[indices_of_cluster]).tolist()
         
         return_value.append(current_cluster_result)
@@ -106,13 +104,4 @@ def lambda_handler(event, context):
         "statusCode": 200,
         "body": json.dumps({'objects': return_value})
     }
-
-print(lambda_handler({},{})['body'])
-
-# Uncomment the following line if the code is run in local machine
-
-# with open('result_localization.json','w') as f:
-#     f.writelines(lambda_handler({},{})['body'])
-
-# print("Copy and paste the following line in firefox browser")
-# print(os.getcwd()+'/result_localization.json')
+lambda_handler({},{})

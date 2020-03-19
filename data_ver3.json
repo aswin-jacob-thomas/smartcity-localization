@@ -1,0 +1,1221 @@
+{
+   "count":152,
+   "data":[
+      {
+         "latitude":29.7520325,
+         "longitude":-95.3847691,
+         "compass":259.4339294433594,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:38:28.369Z",
+         "image":"http://backend.digitaltwincities.info/images/1584203906415.jpeg"
+      },
+      {
+         "latitude":29.7520594,
+         "longitude":-95.3847745,
+         "compass":302.5991516113281,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:39:11.226Z",
+         "image":"http://backend.digitaltwincities.info/images/1584203948206.jpeg"
+      },
+      {
+         "latitude":29.7521071,
+         "longitude":-95.3849355,
+         "compass":337.60235595703125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:40:00.094Z",
+         "image":"http://backend.digitaltwincities.info/images/1584203997432.jpeg"
+      },
+      {
+         "latitude":29.7521698,
+         "longitude":-95.3848647,
+         "compass":6.816120147705078,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:40:43.090Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204039100.jpeg"
+      },
+      {
+         "latitude":29.7520293,
+         "longitude":-95.385164,
+         "compass":62.288818359375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:43:24.759Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204199350.jpeg"
+      },
+      {
+         "latitude":29.7521104,
+         "longitude":-95.3851756,
+         "compass":94.53553009033203,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:44:39.767Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204275436.jpeg"
+      },
+      {
+         "latitude":29.752236,
+         "longitude":-95.3849079,
+         "compass":197.2523651123047,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:46:29.401Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204387114.jpeg"
+      },
+      {
+         "latitude":29.7522174,
+         "longitude":-95.3848767,
+         "compass":220.26803588867188,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:48:01.490Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204479640.jpeg"
+      },
+      {
+         "latitude":29.7525717,
+         "longitude":-95.3831356,
+         "compass":357.6129150390625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:53:58.660Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204836247.jpeg"
+      },
+      {
+         "latitude":29.7525519,
+         "longitude":-95.3830169,
+         "compass":316.4814453125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:55:36.212Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204934396.jpeg"
+      },
+      {
+         "latitude":29.7526523,
+         "longitude":-95.3828653,
+         "compass":283.8585205078125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:56:23.375Z",
+         "image":"http://backend.digitaltwincities.info/images/1584204981846.jpeg"
+      },
+      {
+         "latitude":29.7527091,
+         "longitude":-95.3827279,
+         "compass":245.61843872070312,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:57:23.398Z",
+         "image":"http://backend.digitaltwincities.info/images/1584205041039.jpeg"
+      },
+      {
+         "latitude":29.7527604,
+         "longitude":-95.382897,
+         "compass":212.6306610107422,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:58:15.407Z",
+         "image":"http://backend.digitaltwincities.info/images/1584205093191.jpeg"
+      },
+      {
+         "latitude":29.7527563,
+         "longitude":-95.383049,
+         "compass":182.91845703125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T16:59:05.783Z",
+         "image":"http://backend.digitaltwincities.info/images/1584205143776.jpeg"
+      },
+      {
+         "latitude":29.752718,
+         "longitude":-95.3832581,
+         "compass":93.62792205810547,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:01:38.328Z",
+         "image":"http://backend.digitaltwincities.info/images/1584205294878.jpeg"
+      },
+      {
+         "latitude":29.7524918,
+         "longitude":-95.383438,
+         "compass":62.60261154174805,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:04:14.853Z",
+         "image":"http://backend.digitaltwincities.info/images/1584205451259.jpeg"
+      },
+      {
+         "latitude":29.7544541,
+         "longitude":-95.3832558,
+         "compass":87.99212646484375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:30:27.377Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207024628.jpeg"
+      },
+      {
+         "latitude":29.7548191,
+         "longitude":-95.3833538,
+         "compass":115.49099731445312,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:31:21.531Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207079276.jpeg"
+      },
+      {
+         "latitude":29.754667,
+         "longitude":-95.3829859,
+         "compass":172.37742614746094,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:32:11.393Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207129230.jpeg"
+      },
+      {
+         "latitude":29.7544751,
+         "longitude":-95.382808,
+         "compass":288.08331298828125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:33:19.983Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207196930.jpeg"
+      },
+      {
+         "latitude":29.7544768,
+         "longitude":-95.3829771,
+         "compass":320.37371826171875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:34:01.702Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207237907.jpeg"
+      },
+      {
+         "latitude":29.7544715,
+         "longitude":-95.3831679,
+         "compass":11.040276527404785,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:34:47.192Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207284075.jpeg"
+      },
+      {
+         "latitude":29.7545631,
+         "longitude":-95.3832581,
+         "compass":54.016990661621094,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:35:23.526Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207320691.jpeg"
+      },
+      {
+         "latitude":29.7544796,
+         "longitude":-95.3804889,
+         "compass":60.49149703979492,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:42:38.705Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207756741.jpeg"
+      },
+      {
+         "latitude":29.7548342,
+         "longitude":-95.3803481,
+         "compass":117.71163177490234,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:43:20.129Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207797692.jpeg"
+      },
+      {
+         "latitude":29.7545964,
+         "longitude":-95.3801144,
+         "compass":275.3975830078125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:44:25.144Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207862920.jpeg"
+      },
+      {
+         "latitude":29.754547,
+         "longitude":-95.3801198,
+         "compass":311.33056640625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:45:04.323Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207901691.jpeg"
+      },
+      {
+         "latitude":29.7546582,
+         "longitude":-95.3802573,
+         "compass":337.01470947265625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:45:44.262Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207941359.jpeg"
+      },
+      {
+         "latitude":29.7542986,
+         "longitude":-95.3802979,
+         "compass":19.56002426147461,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:46:31.005Z",
+         "image":"http://backend.digitaltwincities.info/images/1584207989228.jpeg"
+      },
+      {
+         "latitude":29.7545301,
+         "longitude":-95.3804982,
+         "compass":55.374385833740234,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:47:10.479Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208028552.jpeg"
+      },
+      {
+         "latitude":29.7551494,
+         "longitude":-95.3795498,
+         "compass":21.551939010620117,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:52:08.282Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208323319.jpeg"
+      },
+      {
+         "latitude":29.75499,
+         "longitude":-95.3794086,
+         "compass":340.7778015136719,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:53:08.567Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208386479.jpeg"
+      },
+      {
+         "latitude":29.7551033,
+         "longitude":-95.379404,
+         "compass":319.0645751953125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:54:20.329Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208457038.jpeg"
+      },
+      {
+         "latitude":29.7551376,
+         "longitude":-95.3793712,
+         "compass":286.23602294921875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:54:56.290Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208492642.jpeg"
+      },
+      {
+         "latitude":29.7551498,
+         "longitude":-95.3793324,
+         "compass":277.4652099609375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:55:47.006Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208543957.jpeg"
+      },
+      {
+         "latitude":29.7551674,
+         "longitude":-95.3797033,
+         "compass":61.293033599853516,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:57:00.016Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208614437.jpeg"
+      },
+      {
+         "latitude":29.7555891,
+         "longitude":-95.3794928,
+         "compass":154.1522979736328,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:58:02.046Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208679679.jpeg"
+      },
+      {
+         "latitude":29.7555629,
+         "longitude":-95.3795871,
+         "compass":180.30978393554688,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T17:58:36.428Z",
+         "image":"http://backend.digitaltwincities.info/images/1584208714048.jpeg"
+      },
+      {
+         "latitude":29.7551706,
+         "longitude":-95.3756584,
+         "compass":322.1297302246094,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:08:36.426Z",
+         "image":"http://backend.digitaltwincities.info/images/1584209314106.jpeg"
+      },
+      {
+         "latitude":29.7552194,
+         "longitude":-95.3757122,
+         "compass":43.445091247558594,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:09:16.315Z",
+         "image":"http://backend.digitaltwincities.info/images/1584209353483.jpeg"
+      },
+      {
+         "latitude":29.7553764,
+         "longitude":-95.3758989,
+         "compass":77.33387756347656,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:09:51.659Z",
+         "image":"http://backend.digitaltwincities.info/images/1584209387460.jpeg"
+      },
+      {
+         "latitude":29.7553593,
+         "longitude":-95.3757855,
+         "compass":154.6405487060547,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:10:38.497Z",
+         "image":"http://backend.digitaltwincities.info/images/1584209436030.jpeg"
+      },
+      {
+         "latitude":29.7551704,
+         "longitude":-95.3755083,
+         "compass":260.1045837402344,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:11:39.878Z",
+         "image":"http://backend.digitaltwincities.info/images/1584209497911.jpeg"
+      },
+      {
+         "latitude":29.7551791,
+         "longitude":-95.3753215,
+         "compass":278.91986083984375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:12:27.239Z",
+         "image":"http://backend.digitaltwincities.info/images/1584209545301.jpeg"
+      },
+      {
+         "latitude":29.7571286,
+         "longitude":-95.3753399,
+         "compass":90.10743713378906,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:19:49.556Z",
+         "image":"http://backend.digitaltwincities.info/images/1584209988379.jpeg"
+      },
+      {
+         "latitude":29.7570038,
+         "longitude":-95.3752278,
+         "compass":28.932863235473633,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:20:24.183Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210023188.jpeg"
+      },
+      {
+         "latitude":29.7569213,
+         "longitude":-95.3752255,
+         "compass":337.8212890625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:21:08.563Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210067377.jpeg"
+      },
+      {
+         "latitude":29.7568631,
+         "longitude":-95.375242,
+         "compass":324.9686279296875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:21:45.576Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210104703.jpeg"
+      },
+      {
+         "latitude":29.7567548,
+         "longitude":-95.3752957,
+         "compass":250.00967407226562,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:22:26.627Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210144936.jpeg"
+      },
+      {
+         "latitude":29.7571128,
+         "longitude":-95.3753316,
+         "compass":192.41310119628906,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:23:10.855Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210189331.jpeg"
+      },
+      {
+         "latitude":29.7569682,
+         "longitude":-95.3752277,
+         "compass":167.83538818359375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:23:56.529Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210235369.jpeg"
+      },
+      {
+         "latitude":29.7572353,
+         "longitude":-95.3755089,
+         "compass":131.44728088378906,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:24:33.892Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210272878.jpeg"
+      },
+      {
+         "latitude":29.7570031,
+         "longitude":-95.3752771,
+         "compass":104.78307342529297,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:25:22.114Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210321080.jpeg"
+      },
+      {
+         "latitude":29.757462,
+         "longitude":-95.3720445,
+         "compass":252.14315795898438,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T18:34:48.559Z",
+         "image":"http://backend.digitaltwincities.info/images/1584210886148.jpeg"
+      },
+      {
+         "latitude":29.7319773,
+         "longitude":-95.3839883,
+         "compass":220.2550048828125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T19:52:14.549Z",
+         "image":"http://backend.digitaltwincities.info/images/1584215533005.jpeg"
+      },
+      {
+         "latitude":29.7320181,
+         "longitude":-95.3839908,
+         "compass":176.0136260986328,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T19:53:05.212Z",
+         "image":"http://backend.digitaltwincities.info/images/1584215583951.jpeg"
+      },
+      {
+         "latitude":29.7319174,
+         "longitude":-95.384259,
+         "compass":128.81341552734375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T19:53:31.086Z",
+         "image":"http://backend.digitaltwincities.info/images/1584215609723.jpeg"
+      },
+      {
+         "latitude":29.7318008,
+         "longitude":-95.3838809,
+         "compass":309.1029968261719,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T19:54:26.490Z",
+         "image":"http://backend.digitaltwincities.info/images/1584215665286.jpeg"
+      },
+      {
+         "latitude":29.731817,
+         "longitude":-95.3837513,
+         "compass":276.8641357421875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T19:54:59.310Z",
+         "image":"http://backend.digitaltwincities.info/images/1584215698309.jpeg"
+      },
+      {
+         "latitude":29.7319039,
+         "longitude":-95.3838947,
+         "compass":258.35284423828125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T19:55:32.653Z",
+         "image":"http://backend.digitaltwincities.info/images/1584215731168.jpeg"
+      },
+      {
+         "latitude":29.7313323,
+         "longitude":-95.3825601,
+         "compass":136.88009643554688,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:02:32.187Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216150856.jpeg"
+      },
+      {
+         "latitude":29.7311236,
+         "longitude":-95.3826963,
+         "compass":99.18840789794922,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:04:27.589Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216266353.jpeg"
+      },
+      {
+         "latitude":29.7312256,
+         "longitude":-95.3827834,
+         "compass":55.95826721191406,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:05:21.891Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216320562.jpeg"
+      },
+      {
+         "latitude":29.7309795,
+         "longitude":-95.3823634,
+         "compass":2.2144811153411865,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:05:58.306Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216356772.jpeg"
+      },
+      {
+         "latitude":29.7308709,
+         "longitude":-95.3823143,
+         "compass":322.2750549316406,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:06:48.616Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216405688.jpeg"
+      },
+      {
+         "latitude":29.7306262,
+         "longitude":-95.3822194,
+         "compass":308.9637451171875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:07:17.044Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216436036.jpeg"
+      },
+      {
+         "latitude":29.7296237,
+         "longitude":-95.3800505,
+         "compass":290.2064208984375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:13:28.565Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216806425.jpeg"
+      },
+      {
+         "latitude":29.7297063,
+         "longitude":-95.3798811,
+         "compass":258.3315124511719,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:14:02.515Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216840439.jpeg"
+      },
+      {
+         "latitude":29.7297329,
+         "longitude":-95.3798971,
+         "compass":219.33969116210938,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:14:36.154Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216874683.jpeg"
+      },
+      {
+         "latitude":29.7297615,
+         "longitude":-95.3800617,
+         "compass":175.55999755859375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:15:15.574Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216914324.jpeg"
+      },
+      {
+         "latitude":29.7298611,
+         "longitude":-95.3801457,
+         "compass":147.11888122558594,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:15:48.649Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216947516.jpeg"
+      },
+      {
+         "latitude":29.7299307,
+         "longitude":-95.3802454,
+         "compass":121.28743743896484,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:16:22.944Z",
+         "image":"http://backend.digitaltwincities.info/images/1584216981053.jpeg"
+      },
+      {
+         "latitude":29.7298353,
+         "longitude":-95.3803063,
+         "compass":92.81912231445312,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:17:05.162Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217022563.jpeg"
+      },
+      {
+         "latitude":29.7295739,
+         "longitude":-95.380299,
+         "compass":56.0606803894043,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:17:48.998Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217067631.jpeg"
+      },
+      {
+         "latitude":29.7295978,
+         "longitude":-95.3802716,
+         "compass":25.207067489624023,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:18:20.552Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217099139.jpeg"
+      },
+      {
+         "latitude":29.7296489,
+         "longitude":-95.3801424,
+         "compass":1.7919974327087402,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:19:08.680Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217145907.jpeg"
+      },
+      {
+         "latitude":29.7279824,
+         "longitude":-95.3771569,
+         "compass":327.63800048828125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:30:48.174Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217847254.jpeg"
+      },
+      {
+         "latitude":29.7281888,
+         "longitude":-95.3767776,
+         "compass":308.7335510253906,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:31:24.671Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217883294.jpeg"
+      },
+      {
+         "latitude":29.7284403,
+         "longitude":-95.376773,
+         "compass":248.31719970703125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:32:03.413Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217921526.jpeg"
+      },
+      {
+         "latitude":29.7284567,
+         "longitude":-95.3768191,
+         "compass":196.92958068847656,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:33:08.244Z",
+         "image":"http://backend.digitaltwincities.info/images/1584217985269.jpeg"
+      },
+      {
+         "latitude":29.7280771,
+         "longitude":-95.3762987,
+         "compass":87.19686889648438,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:34:10.199Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218047693.jpeg"
+      },
+      {
+         "latitude":29.7283761,
+         "longitude":-95.3769204,
+         "compass":40.11033248901367,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:34:42.253Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218080053.jpeg"
+      },
+      {
+         "latitude":29.728042,
+         "longitude":-95.3770278,
+         "compass":4.467260837554932,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:35:12.904Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218110740.jpeg"
+      },
+      {
+         "latitude":29.7273086,
+         "longitude":-95.3755225,
+         "compass":41.2559700012207,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:42:22.624Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218538462.jpeg"
+      },
+      {
+         "latitude":29.7269259,
+         "longitude":-95.3753126,
+         "compass":3.9297187328338623,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:42:57.840Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218575600.jpeg"
+      },
+      {
+         "latitude":29.7269114,
+         "longitude":-95.3750484,
+         "compass":338.8193664550781,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:43:42.051Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218618768.jpeg"
+      },
+      {
+         "latitude":29.7270239,
+         "longitude":-95.3749565,
+         "compass":307.19378662109375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:44:13.311Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218650165.jpeg"
+      },
+      {
+         "latitude":29.7272265,
+         "longitude":-95.3748729,
+         "compass":253.88902282714844,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:44:53.397Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218690970.jpeg"
+      },
+      {
+         "latitude":29.7271663,
+         "longitude":-95.3755619,
+         "compass":223.27381896972656,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:45:38.228Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218736430.jpeg"
+      },
+      {
+         "latitude":29.7272527,
+         "longitude":-95.3749253,
+         "compass":189.95584106445312,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:46:14.816Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218771840.jpeg"
+      },
+      {
+         "latitude":29.7272417,
+         "longitude":-95.3749806,
+         "compass":104.9404525756836,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:47:09.116Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218826029.jpeg"
+      },
+      {
+         "latitude":29.7273528,
+         "longitude":-95.3754756,
+         "compass":61.580318450927734,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:47:52.926Z",
+         "image":"http://backend.digitaltwincities.info/images/1584218869831.jpeg"
+      },
+      {
+         "latitude":29.7252091,
+         "longitude":-95.3724932,
+         "compass":25.587644577026367,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:55:32.038Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219328938.jpeg"
+      },
+      {
+         "latitude":29.7252098,
+         "longitude":-95.3724959,
+         "compass":100.98721313476562,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:56:07.556Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219363528.jpeg"
+      },
+      {
+         "latitude":29.7255187,
+         "longitude":-95.3725363,
+         "compass":166.195556640625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:56:43.093Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219399669.jpeg"
+      },
+      {
+         "latitude":29.7253636,
+         "longitude":-95.3722122,
+         "compass":223.36492919921875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:57:16.717Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219431538.jpeg"
+      },
+      {
+         "latitude":29.7253382,
+         "longitude":-95.3722097,
+         "compass":272.9359436035156,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:57:47.857Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219464814.jpeg"
+      },
+      {
+         "latitude":29.7252058,
+         "longitude":-95.3722221,
+         "compass":309.0663146972656,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:58:19.242Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219496709.jpeg"
+      },
+      {
+         "latitude":29.7250452,
+         "longitude":-95.3723687,
+         "compass":343.9883728027344,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:58:50.757Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219528872.jpeg"
+      },
+      {
+         "latitude":29.7250774,
+         "longitude":-95.3724186,
+         "compass":22.714962005615234,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T20:59:21.388Z",
+         "image":"http://backend.digitaltwincities.info/images/1584219558601.jpeg"
+      },
+      {
+         "latitude":29.7222705,
+         "longitude":-95.3670451,
+         "compass":109.45259857177734,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:14:20.636Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220459081.jpeg"
+      },
+      {
+         "latitude":29.7222247,
+         "longitude":-95.3671307,
+         "compass":68.52346801757812,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:14:57.515Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220495551.jpeg"
+      },
+      {
+         "latitude":29.7220495,
+         "longitude":-95.3671647,
+         "compass":35.4884147644043,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:15:28.432Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220525241.jpeg"
+      },
+      {
+         "latitude":29.7220357,
+         "longitude":-95.3670314,
+         "compass":357.5724792480469,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:16:09.503Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220564042.jpeg"
+      },
+      {
+         "latitude":29.7220488,
+         "longitude":-95.3670019,
+         "compass":317.1290283203125,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:16:43.547Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220594603.jpeg"
+      },
+      {
+         "latitude":29.7222658,
+         "longitude":-95.3670074,
+         "compass":247.22708129882812,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:17:13.086Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220629693.jpeg"
+      },
+      {
+         "latitude":29.7223058,
+         "longitude":-95.3668929,
+         "compass":223.41363525390625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:18:55.075Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220732289.jpeg"
+      },
+      {
+         "latitude":29.7224341,
+         "longitude":-95.3670523,
+         "compass":194.64764404296875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T21:19:20.675Z",
+         "image":"http://backend.digitaltwincities.info/images/1584220758436.jpeg"
+      },
+      {
+         "latitude":29.7029546,
+         "longitude":-95.3960647,
+         "compass":304.1722717285156,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:10:23.362Z",
+         "image":"http://backend.digitaltwincities.info/images/1584223822330.jpeg"
+      },
+      {
+         "latitude":29.7029027,
+         "longitude":-95.3962934,
+         "compass":2.119602918624878,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:11:01.715Z",
+         "image":"http://backend.digitaltwincities.info/images/1584223860686.jpeg"
+      },
+      {
+         "latitude":29.7028985,
+         "longitude":-95.3963193,
+         "compass":40.704708099365234,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:11:39.719Z",
+         "image":"http://backend.digitaltwincities.info/images/1584223898588.jpeg"
+      },
+      {
+         "latitude":29.7029409,
+         "longitude":-95.3967263,
+         "compass":58.58347702026367,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:12:10.655Z",
+         "image":"http://backend.digitaltwincities.info/images/1584223929321.jpeg"
+      },
+      {
+         "latitude":29.7031096,
+         "longitude":-95.3966567,
+         "compass":127.71783447265625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:12:49.437Z",
+         "image":"http://backend.digitaltwincities.info/images/1584223967927.jpeg"
+      },
+      {
+         "latitude":29.7033095,
+         "longitude":-95.3964973,
+         "compass":157.97618103027344,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:13:43.513Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224022549.jpeg"
+      },
+      {
+         "latitude":29.7033413,
+         "longitude":-95.3962611,
+         "compass":189.19979858398438,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:15:06.201Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224105178.jpeg"
+      },
+      {
+         "latitude":29.70329,
+         "longitude":-95.3962382,
+         "compass":265.4552307128906,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:16:12.995Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224171889.jpeg"
+      },
+      {
+         "latitude":29.7027281,
+         "longitude":-95.3956835,
+         "compass":104.07479095458984,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:19:55.085Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224393542.jpeg"
+      },
+      {
+         "latitude":29.7027591,
+         "longitude":-95.3955541,
+         "compass":66.26959991455078,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:20:25.462Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224423330.jpeg"
+      },
+      {
+         "latitude":29.7026565,
+         "longitude":-95.3952901,
+         "compass":47.69700622558594,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:21:00.813Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224458077.jpeg"
+      },
+      {
+         "latitude":29.7024474,
+         "longitude":-95.3952026,
+         "compass":2.072697877883911,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:21:34.494Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224492455.jpeg"
+      },
+      {
+         "latitude":29.7024523,
+         "longitude":-95.3951971,
+         "compass":320.4322814941406,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:22:05.880Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224524541.jpeg"
+      },
+      {
+         "latitude":29.7025415,
+         "longitude":-95.3950462,
+         "compass":301.31988525390625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:22:34.799Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224551098.jpeg"
+      },
+      {
+         "latitude":29.7023091,
+         "longitude":-95.3935726,
+         "compass":99.28236389160156,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:25:49.789Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224747623.jpeg"
+      },
+      {
+         "latitude":29.7023374,
+         "longitude":-95.3936826,
+         "compass":147.1038055419922,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:26:34.099Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224790699.jpeg"
+      },
+      {
+         "latitude":29.7020958,
+         "longitude":-95.3937107,
+         "compass":76.31477355957031,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:27:29.331Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224847452.jpeg"
+      },
+      {
+         "latitude":29.7020731,
+         "longitude":-95.3937103,
+         "compass":38.338157653808594,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:28:06.979Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224882692.jpeg"
+      },
+      {
+         "latitude":29.7020453,
+         "longitude":-95.393685,
+         "compass":348.291015625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:28:38.253Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224914350.jpeg"
+      },
+      {
+         "latitude":29.7020167,
+         "longitude":-95.3936221,
+         "compass":312.6626892089844,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:29:17.734Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224956213.jpeg"
+      },
+      {
+         "latitude":29.7019835,
+         "longitude":-95.3931754,
+         "compass":287.8068542480469,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:29:50.177Z",
+         "image":"http://backend.digitaltwincities.info/images/1584224987433.jpeg"
+      },
+      {
+         "latitude":29.7015082,
+         "longitude":-95.3923288,
+         "compass":133.06690979003906,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:32:19.475Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225137615.jpeg"
+      },
+      {
+         "latitude":29.7018354,
+         "longitude":-95.3922345,
+         "compass":111.34197998046875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:32:51.938Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225169090.jpeg"
+      },
+      {
+         "latitude":29.7017108,
+         "longitude":-95.392057,
+         "compass":76.31473541259766,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:33:27.632Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225201566.jpeg"
+      },
+      {
+         "latitude":29.7014758,
+         "longitude":-95.3922783,
+         "compass":37.45671844482422,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:33:53.415Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225228538.jpeg"
+      },
+      {
+         "latitude":29.7012806,
+         "longitude":-95.3919746,
+         "compass":327.2191162109375,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:34:30.260Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225264935.jpeg"
+      },
+      {
+         "latitude":29.7013813,
+         "longitude":-95.3918705,
+         "compass":289.61572265625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:35:08.987Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225304541.jpeg"
+      },
+      {
+         "latitude":29.7015608,
+         "longitude":-95.3917637,
+         "compass":236.1239471435547,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:36:01.082Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225355931.jpeg"
+      },
+      {
+         "latitude":29.7015509,
+         "longitude":-95.3919099,
+         "compass":212.81500244140625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:36:36.174Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225391871.jpeg"
+      },
+      {
+         "latitude":29.7031716,
+         "longitude":-95.3915104,
+         "compass":10.15317153930664,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:40:54.392Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225652127.jpeg"
+      },
+      {
+         "latitude":29.7031877,
+         "longitude":-95.391459,
+         "compass":51.54646682739258,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:41:28.515Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225684338.jpeg"
+      },
+      {
+         "latitude":29.7032302,
+         "longitude":-95.3914823,
+         "compass":88.31208801269531,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:42:00.589Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225715388.jpeg"
+      },
+      {
+         "latitude":29.702573,
+         "longitude":-95.3910378,
+         "compass":225.31790161132812,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:43:01.008Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225776633.jpeg"
+      },
+      {
+         "latitude":29.703354,
+         "longitude":-95.3911292,
+         "compass":255.644775390625,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:43:28.664Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225805883.jpeg"
+      },
+      {
+         "latitude":29.7032996,
+         "longitude":-95.3911103,
+         "compass":295.3095397949219,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:44:03.598Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225838648.jpeg"
+      },
+      {
+         "latitude":29.7032978,
+         "longitude":-95.3911184,
+         "compass":331.98504638671875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:44:36.386Z",
+         "image":"http://backend.digitaltwincities.info/images/1584225873698.jpeg"
+      },
+      {
+         "latitude":29.7044843,
+         "longitude":-95.3908203,
+         "compass":47.49747085571289,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:48:52.199Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226131125.jpeg"
+      },
+      {
+         "latitude":29.7045325,
+         "longitude":-95.3908287,
+         "compass":176.1642608642578,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:49:57.836Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226195561.jpeg"
+      },
+      {
+         "latitude":29.7042525,
+         "longitude":-95.3909899,
+         "compass":198.6067657470703,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:50:37.399Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226236218.jpeg"
+      },
+      {
+         "latitude":29.7044189,
+         "longitude":-95.3907613,
+         "compass":235.3430938720703,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:51:11.207Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226269839.jpeg"
+      },
+      {
+         "latitude":29.704225,
+         "longitude":-95.3906812,
+         "compass":270.9794921875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:51:53.539Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226312228.jpeg"
+      },
+      {
+         "latitude":29.7040052,
+         "longitude":-95.3907625,
+         "compass":316.6082763671875,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:52:28.497Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226345930.jpeg"
+      },
+      {
+         "latitude":29.7041492,
+         "longitude":-95.3910872,
+         "compass":13.048968315124512,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:53:00.278Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226378242.jpeg"
+      },
+      {
+         "latitude":29.7042487,
+         "longitude":-95.3910588,
+         "compass":144.07188415527344,
+         "classification":"Blackout Related Object",
+         "createdDate":"2020-03-14T22:54:23.215Z",
+         "image":"http://backend.digitaltwincities.info/images/1584226459429.jpeg"
+      }
+   ]
+}
