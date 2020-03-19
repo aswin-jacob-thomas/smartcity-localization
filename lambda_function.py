@@ -10,7 +10,6 @@ import os
 def lambda_handler(event, context):
     url = 'http://backend.digitaltwincities.info'
     response = urllib.request.urlopen(url).read()
-    
     json_data = json.loads(response.decode('utf-8'))
     data = json_data['data']
     array = []
@@ -23,7 +22,7 @@ def lambda_handler(event, context):
 
     for d in data:
         ut_cordinates = utm.from_latlon(d['latitude'], d['longitude'])
-        t_list = [ut_cordinates[0],ut_cordinates[1],d['compass']]
+        t_list = [ut_cordinates[0],ut_cordinates[1],d['compass']+2.28]
         data_array.append(d)
         cordinate_array.append(ut_cordinates[2])
         zone_array.append(ut_cordinates[3])
@@ -60,26 +59,19 @@ def lambda_handler(event, context):
         # Creating lines from the compass and the current point
         p = 100
         len_of_cluster = len(cluster_array)
-
-        # Initializing the intersection of lines numpy array
-        intersections_of_lines = np.empty([p,2]) 
-        for i in range(p):
-            idx = np.random.randint(len_of_cluster, size=2)
-            lines = eq_coeff_cluster[idx, :]
-            
-            A = lines[:, [0,1]]
-            Y = lines[:, [2]]
-
-            X = np.matmul(np.linalg.pinv(A),  Y)
-            X = np.concatenate(X)
-            
-            intersections_of_lines[i,:] = X
-
-        # Performing mean shift clustering and finding the cluster with the maximum number of points
-        # This center point is taken as the estimated center of the object
         if len_of_cluster < 2:
             continue
-        ms = MeanShift(bandwidth=150)  
+        # Initializing the intersection of lines numpy array
+        pairwise_indices = np.random.randint(0, len_of_cluster , (p,2))
+        pairs = eq_coeff_cluster[pairwise_indices]
+        
+        A = pairs[:,:,:-1]
+        Y = pairs[:,:,-1:]
+        intersections_of_lines = np.squeeze(np.matmul(np.linalg.pinv(A),  Y))
+        # Performing mean shift clustering and finding the cluster with the maximum number of points
+        # This center point is taken as the estimated center of the object
+        
+        ms = MeanShift(bandwidth=100)  
         labels = (ms.fit_predict(intersections_of_lines)).tolist()
         cluster_centers = ms.cluster_centers_
         
@@ -104,4 +96,3 @@ def lambda_handler(event, context):
         "statusCode": 200,
         "body": json.dumps({'objects': return_value})
     }
-lambda_handler({},{})
