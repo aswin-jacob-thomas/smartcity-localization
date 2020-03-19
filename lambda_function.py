@@ -6,11 +6,54 @@ import json
 import urllib.request
 import time
 import os
+from multiprocessing import Process, Pipe
+
+def parallel(cluster_id, cluster_array,cordinate_array, zone_array, data_array, conn):
+    current_cluster_result = {}
+    
+    len_of_cluster = len(cluster_array)
+    compass_array = cluster_array[:,[2]]
+    a = np.tan(np.radians(90-compass_array))
+    b = np.ones(np.shape(compass_array))
+    c = np.multiply(a,cluster_array[:,[0]]) - cluster_array[:,[1]]
+    eq_coeff_cluster = np.hstack((a, -b ,c))
+    # we take the value of p as 300 just for analysing the time taken to run this
+    # Creating lines from the compass and the current point
+    p = 100
+
+    # Initializing the intersection of lines numpy array
+    pairwise_indices = np.random.randint(0, len_of_cluster , (p,2))
+    pairs = eq_coeff_cluster[pairwise_indices]
+
+    A = pairs[:,:,:-1]
+    Y = pairs[:,:,-1:]
+    intersections_of_lines = np.squeeze(np.matmul(np.linalg.pinv(A),  Y))
+    ms = MeanShift(bandwidth=150)  
+    labels = (ms.fit_predict(intersections_of_lines)).tolist()
+    cluster_centers = ms.cluster_centers_
+    end = time.time()
+
+    mode_of_labels = max(set(labels), key=labels.count)
+    current_cluster_result['cluster_id'] = cluster_id
+    current_cluster_result['cluster_item_count'] = len_of_cluster       
+    
+    cordinate_list = (cordinate_array).tolist()
+    cordinate = max(set(cordinate_list), key=cordinate_list.count)
+
+    zone_list = (zone_array).tolist()
+    zone = max(set(zone_list), key=zone_list.count)
+    lat_long = utm.to_latlon(cluster_centers[mode_of_labels][0], cluster_centers[mode_of_labels][1], cordinate, zone)
+
+    current_cluster_result['cluster_latitude'] = lat_long[0]
+    current_cluster_result['cluster_longitude'] = lat_long[1]
+    current_cluster_result['cluster_objects'] = (data_array).tolist()
+    conn.send(current_cluster_result)
 
 def lambda_handler(event, context):
     url = 'http://backend.digitaltwincities.info'
     response = urllib.request.urlopen(url).read()
     json_data = json.loads(response.decode('utf-8'))
+
     data = json_data['data']
     array = []
     # Creating image array which contains all the images
@@ -44,55 +87,36 @@ def lambda_handler(event, context):
     # Stacking the labels next to array. Now array contains latitude, longitude, compass, label
     
     return_value = []
+    processes = []
+    parent_connections = []
+    
     for cluster in range(len(cluster_centers)):
-        current_cluster_result = {}
+        
         indices_of_cluster = np.where(array[:,3] == cluster)
-        # Here we take all the elements that belong to the current cluster and the indices are stored as indices_of cluster
-       
         cluster_array = array[indices_of_cluster]  
-        compass_array = cluster_array[:,[2]]
-        a = np.tan(np.radians(90-compass_array))
-        b = np.ones(np.shape(compass_array))
-        c = np.multiply(a,cluster_array[:,[0]]) - cluster_array[:,[1]]
-        eq_coeff_cluster = np.hstack((a, -b ,c))
-        # we take the value of p as 300 just for analysing the time taken to run this
-        # Creating lines from the compass and the current point
-        p = 100
         len_of_cluster = len(cluster_array)
         if len_of_cluster < 2:
             continue
-        # Initializing the intersection of lines numpy array
-        pairwise_indices = np.random.randint(0, len_of_cluster , (p,2))
-        pairs = eq_coeff_cluster[pairwise_indices]
+        parent_conn, child_conn = Pipe()
+        parent_connections.append(parent_conn)
         
-        A = pairs[:,:,:-1]
-        Y = pairs[:,:,-1:]
-        intersections_of_lines = np.squeeze(np.matmul(np.linalg.pinv(A),  Y))
-        # Performing mean shift clustering and finding the cluster with the maximum number of points
-        # This center point is taken as the estimated center of the object
+        process = Process(target=parallel, args=(cluster, cluster_array, cordinate_array[indices_of_cluster], 
+                    zone_array[indices_of_cluster], data_array[indices_of_cluster], child_conn,))
         
-        ms = MeanShift(bandwidth=100)  
-        labels = (ms.fit_predict(intersections_of_lines)).tolist()
-        cluster_centers = ms.cluster_centers_
+        processes.append(process)
         
-        mode_of_labels = max(set(labels), key=labels.count)
-        current_cluster_result['cluster_id'] = cluster
-        current_cluster_result['cluster_item_count'] = len_of_cluster
-        cordinate_list = (cordinate_array[indices_of_cluster]).tolist()
-        cordinate = max(set(cordinate_list), key=cordinate_list.count)
-
-        zone_list = (zone_array[indices_of_cluster]).tolist()
-        zone = max(set(zone_list), key=zone_list.count)
-        lat_long = utm.to_latlon(cluster_centers[mode_of_labels][0], cluster_centers[mode_of_labels][1], cordinate, zone)
-        current_cluster_result['cluster_latitude'] = lat_long[0]
-        current_cluster_result['cluster_longitude'] = lat_long[1]
-        # g = geocoder.arcgis([lat_long[0], lat_long[1]], method='reverse')
-        # current_cluster_result['cluster_address'] = g.json['address']
-        current_cluster_result['cluster_objects'] = (data_array[indices_of_cluster]).tolist()
-        
-        return_value.append(current_cluster_result)
+    for process in processes:
+        process.start()
     
+    for process in processes:
+        process.join()
+    
+    for parent_connection in parent_connections:
+        return_value.append(parent_connection.recv()) #[0]
+        
     return {
         "statusCode": 200,
         "body": json.dumps({'objects': return_value})
     }
+
+lambda_handler({},{})
