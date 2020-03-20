@@ -2,6 +2,7 @@ import numpy as np
 from sklearn.cluster import MeanShift
 import utm
 from sklearn.cluster import MeanShift
+from sklearn.metrics.pairwise import haversine_distances
 import json
 import urllib.request
 import time
@@ -49,12 +50,33 @@ def parallel(cluster_id, cluster_array,cordinate_array, zone_array, data_array, 
     current_cluster_result['cluster_objects'] = (data_array).tolist()
     conn.send(current_cluster_result)
 
-def lambda_handler(event, context):
-    url = 'http://backend.digitaltwincities.info'
+def read_remote_url(url, conn):
     response = urllib.request.urlopen(url).read()
-    json_data = json.loads(response.decode('utf-8'))
-
+    json_data = json.loads(response)
     data = json_data['data']
+    conn.send(data)
+
+def lambda_handler(event, context):
+    processes = []
+    parent_connections = []
+    
+    parent1, child1 = Pipe()
+    parent2, child2 = Pipe()
+    
+    parent_connections.append(parent1)
+    parent_connections.append(parent2)
+    
+    p1 = Process(target=read_remote_url, args=('http://backend.digitaltwincities.info', child1))
+    p2 = Process(target=read_remote_url, args=('http://backend.digitaltwincities.info/poles', child2))
+    
+    p1.start()
+    p2.start()
+    
+    p1.join()
+    p2.join()
+
+    data = parent1.recv()
+    poles_data = parent2.recv()
     array = []
     # Creating image array which contains all the images
     data_array = []
@@ -111,12 +133,34 @@ def lambda_handler(event, context):
     for process in processes:
         process.join()
     
+    only_cluster_centers = []
     for parent_connection in parent_connections:
-        return_value.append(parent_connection.recv()) #[0]
-        
+        cluster = parent_connection.recv()
+        return_value.append(cluster) #[0]
+        only_cluster_centers.append([cluster['cluster_latitude'], cluster['cluster_longitude']])
+
+    # get all the cluster center locations and all the pole locations
+    # get the closest pole for each of the cluster
+    # update the pole number in each of the cluster as a new closest_pole_number attribute
+    poles = []
+    
+    for d in poles_data:
+        poles.append([d['latitude'], d['longitude']])
+    
+    poles = np.array(poles)
+    
+    only_cluster_centers = np.array(only_cluster_centers)
+
+    result = haversine_distances(np.radians(only_cluster_centers), np.radians(poles))
+    nearest_pole_manual_id = (result.argmin(axis=1, ) + 1).tolist()
+    
+
+    for index, cluster in enumerate(return_value):
+        cluster['nearest_pole'] = nearest_pole_manual_id[index]
+
+
     return {
         "statusCode": 200,
         "body": json.dumps({'objects': return_value})
     }
 
-lambda_handler({},{})
