@@ -8,6 +8,7 @@ import urllib.request
 import time
 import os
 from multiprocessing import Process, Pipe
+import pymongo
 
 def parallel(cluster_id, cluster_array,cordinate_array, zone_array, data_array, conn):
     current_cluster_result = {}
@@ -68,13 +69,10 @@ def lambda_handler(event, context):
     
     p1 = Process(target=read_remote_url, args=('http://backend.digitaltwincities.info', child1))
     p2 = Process(target=read_remote_url, args=('http://backend.digitaltwincities.info/poles', child2))
-    
     p1.start()
     p2.start()
-    
     p1.join()
     p2.join()
-
     data = parent1.recv()
     poles_data = parent2.recv()
     array = []
@@ -154,13 +152,29 @@ def lambda_handler(event, context):
     result = haversine_distances(np.radians(only_cluster_centers), np.radians(poles))
     nearest_pole_manual_id = (result.argmin(axis=1, ) + 1).tolist()
     
+    pole_update_infos = []
 
+    client = pymongo.MongoClient("mongodb+srv://user:pass@cluster0-rhzye.mongodb.net/test")
+    db = client["test"]
+    collection = db["poles"]
+
+    update_requests = []
     for index, cluster in enumerate(return_value):
         cluster['nearest_pole'] = nearest_pole_manual_id[index]
+        images = cluster['cluster_objects']
+        angle = max([image['angle'] for image in images])
 
+        pole = poles_data[cluster['nearest_pole'] + 1]
+        pole['updated_angle'] = angle
+        update_requests.append(pymongo.UpdateOne(
+            {'manual_id': cluster['nearest_pole']},
+            {"$set": {'updated_angle' : angle}}
+            )
+            )
+        pole_update_infos.append(pole)
+    result = db.poles.bulk_write(update_requests)
 
     return {
         "statusCode": 200,
         "body": json.dumps({'objects': return_value})
     }
-

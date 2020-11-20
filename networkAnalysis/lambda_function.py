@@ -63,6 +63,8 @@ def lambda_handler(event, context):
 
             age = pole['age_10to30']
             angle = pole['angle_3to21']
+            if 'updated_angle' in pole:
+                angle = pole['updated_angle']
             s1 = pole['s1']
             s2 = pole['s2']
             fw = pole['fw']
